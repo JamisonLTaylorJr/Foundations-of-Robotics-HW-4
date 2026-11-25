@@ -228,7 +228,8 @@ class SE2Problem(PlanarProblem):
         q2_2d = np.atleast_2d(q2)
         ### BEGIN QUESTION 4.1 #####################
         ### Hint: try to make use of dubins.path_length()
-        pass
+        # Dubins length is directional: cost of driving FROM q1 TO q2 with the car's max curvature.
+        return dubins.path_length(q1_2d, q2_2d, self.curvature)
         ### END QUESTION 4.1 #######################
 
     def cost_to_go(self, q1, goal):
