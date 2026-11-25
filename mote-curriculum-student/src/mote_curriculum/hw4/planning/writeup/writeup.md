@@ -83,9 +83,10 @@ Comparing the two, RRT found a path where A* could not, but it was solving a dif
 ## AI usage (-8 pts if incomplete)
 **Did you use AI for this assignment? If so, how was it used? Eiher state "no AI was used" or explain *how* it was used. Failure to complete this section will result in 10% of your grade being lost**
 
-ChatGPT was used in this assignment to help us better understand the A* and RRT path planning algorithms and how to write them in Python. It helped explain concepts such as Euclidean distance, priority queues, cost-to-come, heuristics, path extraction, and tree expansion. Additionally, it helped us debug errors involving variable assignments, incorrect path costs, collision checking, and nearest neighbor searches.
+Used ChatGPT to understand A* and RRT path planning algorithms and used it as a guidance to code. It helped us debug error involving variable assignments, incorrect path costs, collision checking and nearest neighbour searches
 
-Claude Code was also used for the later parts of the assignment. It designed the two Q3 maps and checked them with `test/tradeoff.py`, implemented the one-line `SE2Problem.compute_distance` for Q4.1 and checked it against the tests and the reference plot, and helped us set up the Docker container and fix the missing ROS dependencies needed for Q4.2 and Q4.3. It also helped draft the written explanations for Q3, Q4.2, and Q4.3 and the overall wording of this writeup, and regenerated some of the figures with our NetIDs. We reviewed the code, the figures, and the explanations before submitting.
+Used AI to help us design the two Q3 maps and checked them with `test/tradeoff.py`, implement the one-line `SE2Problem.compute_distance` for Q4.1 and checked it against the tests and the reference plot, 
+Took help of AI to fix Docker container and the missing ROS dependencies needed for Q4.2 and Q4.3. Also used AI to remove awkward phrasing and improve flow of answers with correct grammer for Q3, Q4.2, and Q4.3.
 
 ## Feedback
 
